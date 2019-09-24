@@ -1,35 +1,10 @@
 ---
-title: 今、情热が岚になって
-## 近期
+layout: page
+title: UVM verification
+keyword: UVM
+---
+*UVM factory机制
 
-{% for post in site.posts limit:5 %}
-
-- [{{ post.title }}]({{ post.url }}), *{{ post.date | date_to_string }}*
-
-{% if post.description %}
-
-  > {{ post.description }}
-
-{% endif %}
-
-{% endfor %}
-
-- [更多…](/archive)
-
-{% for tag in site.index.showtag %}
-
-## {{ tag }}
-
-{% for post in site.tags[tag] %}
-
-- [{{ post.title }}]({{ post.url }})
-
-{% if post.description %}
-
-  > {{ post.description }}
-
-{% endif %}
-
-{% endfor %}
-
-{% endfor %}
+	facotry机制简介：
+在UVM中
+	
